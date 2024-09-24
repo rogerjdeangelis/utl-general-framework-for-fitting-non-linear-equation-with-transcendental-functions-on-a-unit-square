@@ -13,9 +13,6 @@ General framework for fitting non linear equation with transcendental functions 
 https://tinyurl.com/4e335xb9
 https://github.com/rogerjdeangelis/utl-general-framework-for-fitting-non-linear-equation-with-transcendental-functions-on-a-unit-square/blob/main/pltgrf.pdf
 
-github
-https://tinyurl.com/yc2jmk2c
-https://github.com/rogerjdeangelis/utl-general-framework-for-fitting-non-linear-equation-with-transcendental-functions-on-a-unit-square
 
  Regression cannot easily handle an almost perfectly vertical line segment.
  Regression may not be appropriate for this problem. However, this solution
