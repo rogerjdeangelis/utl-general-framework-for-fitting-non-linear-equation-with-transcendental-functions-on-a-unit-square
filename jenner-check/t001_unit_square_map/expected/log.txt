@@ -1,0 +1,37 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA ys
+
+NOTE: Processing inline DATALINES (4 lines)
+
+NOTE: Read 84 rows from DATALINES.
+NOTE: Wrote ys (84 rows, 1 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA xs
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 84 rows from DATALINES.
+NOTE: Wrote xs (84 rows, 1 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option VALIDVARNAME changed to UPCASE.
+NOTE: DATA rwant
+
+NOTE: MERGE statement used without BY variables. Performing positional merge (row 1 with row 1, etc.).
+NOTE: PROC SQL 
+
+NOTE: Table nrmbfr created.
+NOTE: PROC SQL statement used.
+NOTE: Option LS changed to 90.
+NOTE: Option PS changed to 44.
+NOTE: PROC PLOT data=nrmbfr
+
+NOTE: PROC PLOT produced 1 plot(s) from 84 observations.
+NOTE: Option PS changed to 65.
+NOTE: Option LS changed to 171.
+NOTE: PROC PRINT data=nrmbfr
+
+NOTE: PROC PRINT completed: 5 observations printed, 4 variables

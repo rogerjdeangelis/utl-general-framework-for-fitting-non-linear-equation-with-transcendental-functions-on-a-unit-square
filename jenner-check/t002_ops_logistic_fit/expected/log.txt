@@ -1,0 +1,41 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA ys
+
+NOTE: Processing inline DATALINES (4 lines)
+
+NOTE: Read 84 rows from DATALINES.
+NOTE: Wrote ys (84 rows, 1 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA xs
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 84 rows from DATALINES.
+NOTE: Wrote xs (84 rows, 1 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option VALIDVARNAME changed to UPCASE.
+NOTE: DATA rwant
+
+NOTE: MERGE statement used without BY variables. Performing positional merge (row 1 with row 1, etc.).
+NOTE: DATA check
+
+
+NOTE: Read 84 rows from rwant.
+NOTE: Wrote check (84 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option LS changed to 100.
+NOTE: Option PS changed to 44.
+NOTE: PROC PLOT data=check
+
+NOTE: PROC PLOT produced 2 plot(s) from 84 observations.
+NOTE: Option PS changed to 65.
+NOTE: Option LS changed to 171.
+NOTE: PROC PRINT data=check
+
+NOTE: PROC PRINT completed: 6 observations printed, 4 variables
