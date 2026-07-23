@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-07-23T13:22:01Z",
+  "_captured_run_id": "r_0ad52ec3f6634aba92d0cc5afc78cfc4",
+  "_captured_from": "https://api.jenneranalytics.com/v1/run",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 84 rows from DATALINES.",
+    "NOTE: Table nrmbfr created.",
+    "NOTE: PROC PLOT produced 1 plot(s) from 84 observations.",
+    "NOTE: PROC PRINT completed: 5 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

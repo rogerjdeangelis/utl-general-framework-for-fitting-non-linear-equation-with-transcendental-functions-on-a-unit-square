@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_unit_square_map",
+  "source_file": "utl-general-framework-for-fitting-non-linear-equation-with-transcendental-functions-on-a-unit-square.sas",
+  "source_blob_sha": "ef3b64de99c838980a5b17c4b5b087bcce3d3204",
+  "source_commit": "97790703f38dea32589e6b6b14ed95404b8b3d93",
+  "notes": "Repo's unit-square mapping. XS/YS are the exact CARDS4 input; the PROC SQL min/max normalization and the PROC PLOT (haxis 0 to 1) are copied verbatim from the 'map to unit square' section. Substitution: the source reads the R-interpolated 868-row dataset from libname sd1 (d:/sd1); here the merge of the raw XS/YS CARDS4 data supplies the input directly, so no external libname is needed."
+}

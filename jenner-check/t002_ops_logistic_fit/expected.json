@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-07-23T13:22:01Z",
+  "_captured_run_id": "r_aa594661a94144e99fdbcc6f3a13f679",
+  "_captured_from": "https://api.jenneranalytics.com/v1/run",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 84 rows from rwant.",
+    "NOTE: Wrote check (84 rows, 9 columns).",
+    "NOTE: PROC PLOT produced 2 plot(s) from 84 observations.",
+    "NOTE: PROC PRINT completed: 6 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

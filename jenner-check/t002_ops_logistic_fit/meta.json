@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_ops_logistic_fit",
+  "source_file": "utl-general-framework-for-fitting-non-linear-equation-with-transcendental-functions-on-a-unit-square.sas",
+  "source_blob_sha": "ef3b64de99c838980a5b17c4b5b087bcce3d3204",
+  "source_commit": "97790703f38dea32589e6b6b14ed95404b8b3d93",
+  "notes": "Repo's 'ops solution' section. The DATA CHECK step (four-parameter logistic py = A/(1 + B**(XS - C)) + D with the constants A/B/C/D/E) and the overlay PROC PLOT are copied verbatim; XS/YS are the exact CARDS4 input. Substitution: DATA CHECK reads sd1.rwant (R-interpolated, external libname d:/sd1); here it reads the raw XS/YS merge instead so the logistic evaluates against the observed titration points with no external dependency."
+}
